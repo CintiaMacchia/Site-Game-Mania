@@ -1,0 +1,82 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: black;      
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;  
+}
+
+nav ul li {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold ;    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 800;
+    text-decoration: underline black;
+    font-size: 75px;
+}
+#missao{
+    text-align: center;
+    font-family: 'roboto', sans-serif 100px;
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+h2{
+    text-align: center;
+background-color:rgba(219, 230, 245);
+font-family: 'Roboto', sans-serif 50px;
+color: blue;
+}
+
+.container-fluid {
+    columns: 4;
+font-size: 20px;
+}
+
+h4{
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#botaoexplorar {
+text-align: center;
+}
+footer{
+    background-color: rgba(170, 170, 170);
+    
+}
+
+footer p {
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'roboto', sans-serif;
+    color: black;
+}
+
+footer figcaption{
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'roboto', sans-serif;
+    color: black;
+}
