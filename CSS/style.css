@@ -80,3 +80,11 @@ footer figcaption{
     font-family: 'roboto', sans-serif;
     color: black;
 }
+#acessorios h1 {
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    font-size: 90px;
+}

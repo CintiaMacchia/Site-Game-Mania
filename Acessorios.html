@@ -8,81 +8,156 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">>
     <title>Game Mania</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="CSS/style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!--Hearder-->
     <header>
         <!--ajustar logo-->
-   <img src="midias/logogamemania azul.jpg" alt="Logo Game Mania" width="200" height="150">
+        <img src="midias/logogamemania azul.jpg" alt="Logo Game Mania" width="30%" height="150">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="O que procura?" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <div class="input-group-append">
+              <button type="button" class="btn btn-danger">Pesquisar</button>
+              <a href="index.html "><button type="button " class="btn btn-danger "><i class="fas fa-home"></i>Home</button></a>
+              <button type="button " class="btn btn-danger "><i class="far fa-user "></i>Login</button>
+              <button type="button " class="btn btn-danger "><i class="fas fa-shopping-cart "></i>Carrinho</button>
+          </div>
+        </div>
+      </header>
 
-
-<!--decidir barra de busca-->
-  <div id="Barra de Pesquisa" style="border: 1px solid black ; height:  50px;">
-    <label for="Pesquisar">Pesquisar</label>
-    <input type="text" id="busca" placeholder="O que procura?">
-    <button type="button" class="btn btn-danger">Buscar</button>
-    <a href="index.html"><button type="button" class="btn btn-danger">Home</button></a>
-    <button type="button" class="btn btn-danger"><i class="far fa-user"></i>Login</button>
-    <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
-</div>
-
-<!--produtos-->
-<a><button type="button" class="btn btn-dark">Todas as Categorias</button></a>
-<a href="Computadores.html"><button type="button" class="btn btn-dark">Computadores</button></a>
-<a href="Consoles.html"><button type="button" class="btn btn-dark">Consoles</button></a>
-<a href="Acessorios.html"><button type="button" class="btn btn-dark">Acessórios</button></a>
-<a href="Smartphone.html"><button type="button" class="btn btn-dark">Smartphones</button></a>
-
-    </header>
+<!--submenu-->
+<nav>
+   <ul>
+     <li><a href="">Todas as Categorias</a></li>
+     <li><a href="Computadores.html">Computadores</a></li>
+     <li><a href="Consoles.html">Consoles</a></li>
+     <li><a href="Acessorios.html">Acessórios</a></li>
+     <li><a href="Smartphone.html">Smartphones</a></li>
+   </ul>
+ </nav>
+ <!--fim do submenu-->
+ 
 
     <!--seção acessórios-->
-    <section id= "acessórios">
+    <section id= "acessorios">
         <h1>Acessórios</h1>
+    </section>
+        <!--inicio de produtos acessorios 1-->
+       
+        <div class = "container acessorios1">
+          <div class="row">
+             <div class="col-md 3">
+                <img src="midias/acessorio1.jpg" alt="" width="45%" height="150">
+         </div>
+   
+            <div class="col-md 3">
+               <div class="row">
+            <p>Microfone Gamer HyperX QuadCast S, Antivibração, 
+               LED RGB, USB <br> HMIQ1S-XX-RG/G</p>
+            </div>
 
-        <div class= "acessórios">
-            <img src="midias/acessorio1.jpg" alt="" width="300" height="350">
-            <p>Microfone Gamer HyperX QuadCast S, Antivibração, LED RGB, USB - HMIQ1S-XX-RG/G</p>
-            <p>R$ 1.999,00 </p>
-            <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
+          <div class="row">
+               <p>R$ 1.999,00 </p>
+            </div> 
+
+         <div class="row">
+            <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button> 
+            </div>
+         </div>
+         
+
+        <div class="col-md 3">
+            <img src="midias/acessorio2.jpg" alt="" width="90%" height="200">
          </div>
 
-         <div class= "acessórios">
-            <img src="midias/acessorio2.jpg" alt="" width="450" height="300">
+         <div class="col-md 3">
+            <div class="row">
             <p>Impressora multifuncional HP DeskJet Ink Advantage 2774 com Wi-Fi</p>
+         </div>
+         <div class="row">
             <p>R$ 359,00 </p>
+         </div>
+         <div class="row">
             <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
          </div>
+         </div>
+      </div>
+        </div>
+<!--final de acessorios 1-->
 
-         <div class= "acessórios">
-            <img src="midias/acessorio3.jpg" alt="" width="400" height="300">
+<!--inicio de acessorios 2-->
+
+      <div class = "container acessorios2">
+         <div class="row">
+            <div class="col-md 3">
+                    <img src="midias/acessorio3.jpg" alt="" width="80%" height="250">
+         </div>
+            
+               <div class="row">
+                  <div class="col-md 3">
             <p>Kit Gamer Profissional Tgc12 Preta/Azul Thunderx3 + Teclado + Acessórios</p>
+                  </div>
+               </div>
+                              <div class="row">
+                     <div class="col-md 4">
             <p>R$ 1.634,00 </p>
+                     </div>
+                  </div>
+                                       <div class="row">
+                        <div class="col-md 4">
             <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
-         </div>
-
-         <div class= "acessórios">
-            <img src="midias/acessorio4.jpg" alt="" width="350" height="300">
+                        </div>
+                     </div>
+         
+            <img src="midias/acessorio4.jpg" alt="" width="80%" height="250">
             <p>Headset Gamer Logitech G635 7.1 Dolby Surround com RGB LIGHTSYNC e Drivers de Áudio Avançados para PC PlayStation Xbox e Nintendo Switch</p>
             <p>R$ 729,00</p>
             <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
          </div>
-
-         <div class= "acessórios">
-            <img src="midias/acessorio5.jpg" alt="" width="250" height="300">
-            <p>Fifa 22 - Playstation 5</p>
-            <p>R$ 320,00 </p>
-            <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
+            </div>
          </div>
+      </div>
+      <!--fim de acessorios 2-->
 
-         <div class= "acessórios">
-            <img src="midias/acessorio6.jpg" alt="" width="400" height="300">
+         <div class = "container-fluid acessorios3">
+            <div class="row">
+               <div class="col-md 4">
+            <img src="midias/jogo-fifa-22.jpg" alt="" width="80%" height="230">
+               </div>
+               </div>
+                         <div class="row">
+                  <div class="col-md 4">
+            <p>Fifa 22 - Playstation 5</p>
+                  </div>
+                         </div>
+                         <div class="row">
+                           <div class="col-md 4">
+            <p>R$ 320,00 </p>
+                           </div>
+                         </div>
+                         <div class="row">
+                           <div class="col-md 4">
+            <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
+                           </div>
+                         </div>
+            </div>
+
+         
+            <img src="midias/acessorio6.jpg" alt="" width="50%" height="150">
             <p>Controle Dualsense - Cosmic Red</p>
             <p>R$ 520,00 </p>
             <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
-         </div>
-
-    </section>
+         
+               </div>
+   
 
     <footer>
       <img src="midias/logogamemania azul.jpg" alt="logo" width="60" height="50">
