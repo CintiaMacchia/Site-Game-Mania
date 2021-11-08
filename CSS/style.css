@@ -94,7 +94,7 @@ p{
     font-size: 17px;
 }
 
-#Produtosgamer h1 {
+#computadores h1 {
     font-family: 'roboto', sans-serif;
     text-align: center;
     text-decoration: underline;
@@ -115,5 +115,29 @@ p{
 .pcgamer p{
     font-family: 'roboto', sans-serif;
     color: black;
-    font-size: 17px;
+    font-size: 18px;
+}
+
+#consoles h1{
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.console p{
+    font-family: 'roboto', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+#smartphone h1{
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    font-size: 70px;
 }

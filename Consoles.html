@@ -8,98 +8,229 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">>
     <title>Game Mania</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="CSS/style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!--Hearder-->
-    <header>
-        <!--ajustar logo-->
-   <img src="midias/logogamemania azul.jpg" alt="Logo Game Mania" width="200" height="150">
-
-
-<!--decidir barra de busca-->
-  <div id="Barra de Pesquisa" style="border: 1px solid black ; height:  50px;">
-    <label for="Pesquisar">Pesquisar</label>
-    <input type="text" id="busca" placeholder="O que procura?">
-    <button type="button" class="btn btn-danger">Buscar</button>
-    <a href="index.html"><button type="button" class="btn btn-danger">Home</button></a>
-    <button type="button" class="btn btn-danger"><i class="far fa-user"></i>Login</button>
-    <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
-</div>
-
-
-<a><button type="button" class="btn btn-dark">Todas as Categorias</button></a>
-<a href="Computadores.html"><button type="button" class="btn btn-dark">Computadores</button></a>
-<a href="Consoles.html"><button type="button" class="btn btn-dark">Consoles</button></a>
-<a href="Acessorios.html"><button type="button" class="btn btn-dark">Acessórios</button></a>
-<a href="Smartphone.html"><button type="button" class="btn btn-dark">Smartphones</button></a>
+   <!--Hearder-->
+   <header>
+      <!--ajustar logo-->
+      <img src="midias/logogamemania azul.jpg" alt="Logo Game Mania" width="30%" height="150">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="O que procura?" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+            <button type="button" class="btn btn-danger">Pesquisar</button>
+            <a href="index.html "><button type="button " class="btn btn-danger "><i class="fas fa-home"></i>Home</button></a>
+            <button type="button " class="btn btn-danger "><i class="far fa-user "></i>Login</button>
+            <button type="button " class="btn btn-danger "><i class="fas fa-shopping-cart "></i>Carrinho</button>
+        </div>
+      </div>
     </header>
 
+<!--submenu-->
+<nav>
+ <ul>
+   <li><a href="">Todas as Categorias</a></li>
+   <li><a href="Computadores.html">Computadores</a></li>
+   <li><a href="Consoles.html">Consoles</a></li>
+   <li><a href="Acessorios.html">Acessórios</a></li>
+   <li><a href="Smartphone.html">Smartphones</a></li>
+ </ul>
+</nav>
+<!--fim do submenu-->
+
+
 <!--Produtos-->
-<Section id="Consoles">
+<Section id="consoles">
     <h1>Consoles</h1>
-    
-    <div class= "consoles">
-        <img src="midias/console1.jpg" alt="" width="400" height="300">
-        <p>Nintendo Switch 32GB HAC-001-01 1 Controle Joy-Con - Vermelho e Azul</p>
-        <p>R$ 2.999,99 </p>
-        <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
-     </div>
+   </Section>
 
-     <div class= "consoles">
-        <img src="midias/console2.jpg" alt="" width="400" height="300">
+
+   <div class="container console1">
+
+    <div class= "console">
+
+<div class="row">
+   <div class="col-md-3">
+        <img src="midias/console1.jpg" alt="" width="80%" height="180">
+   </div>
+
+   <div class="col-md-3">
+      <div class="row">
+        <p>Nintendo Switch 32GB HAC-001-01 <br>1 Controle Joy-Con - Vermelho e Azul</p>
+      </div>
+      <div class="row">
+        <p><b>R$ 2.999,99</b> </p>
+      </div>
+      <div class="row">
+        <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
+      </div>
+   </div>
+
+
+    <div class="col-md-3">
+        <img src="midias/console2.jpg" alt="" width="90%" height="230">
+    </div>
+
+    <div class="col-md-3">
+       <div class="row">
         <p>Console Xbox Series S MICROSOFT</p>
-        <p>R$ 2.548,00 </p>
+       </div>
+          <div class="row">
+        <p><b>R$ 2.548,00 </b></p>
+          </div>
+          <div class="row">
         <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
-     </div>
+          </div>
+      </div>
+      </div>
 
-     <div class= "consoles">
-        <img src="midias/console3.jpg" alt="" width="400" height="300">
-        <p>Console PlayStation®5</p>
-        <p>R$ 5.999,99 </p>
-        <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
-     </div>
+      </div>
+   </div>
 
-     <div class= "consoles">
-        <img src="midias/console4.jpg" alt="" width="400" height="300">
-        <p>Video Game Atari Flashback X 110 jogos - TEC TOY</p>
-        <p>R$ 599,00 </p>
-        <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
-     </div>
+   <br><br><br>
 
-     <div class= "consoles">
-        <img src="midias/console5.jpg" alt="" width="400" height="300">
+<div class="container console2">
+
+     <div class= "console">
+<div class="row">
+
+   <div class="col-md-3">
+        <img src="midias/console3.jpg" alt="" width="80%" height="200">
+      </div>
+
+      <div class="col-md-3">
+         <div class="row">
+            <p>Console PlayStation®5</p>
+         </div>
+            <div class="row">
+             <p><b>R$ 5.999,99 </b></p>
+         </div>
+            <div class="row">
+             <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
+          </div>
+      </div>
+
+    
+      <div class="col-md-3">
+        <img src="midias/console4.jpg" alt="" width="90%" height="200">
+      </div>
+
+      <div class="col-md-3">
+         <div class="row">
+           <p>Video Game Atari Flashback X 110 jogos - TEC TOY</p>
+         </div>
+            <div class="row">
+              <p><b>R$ 599,00</b></p>
+           </div>
+             <div class="row">
+               <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
+            </div>
+      </div>
+    
+      </div>
+   </div>
+   </div>
+
+   <br><br><br>
+
+
+   <div class="container console3">
+
+     <div class= "console">
+
+      <div class="row">
+      <div class=" col-md-3">
+        <img src="midias/console5.jpg" alt="" width="90%" height="250">
+      </div>
+
+      <div class="col-md-3">
+         <div class="row">
         <p>Console Nintendo Switch Lite Turquesa NINTENDO</p>
-        <p>R$ 1.899,99 </p>
+         </div>
+         <div class="row">
+        <p><b> R$ 1.899,99</b> </p>
+         </div>
+            <div class="row">
         <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
+            </div>   
      </div>
 
-     <div class= "consoles">
-        <img src="midias/console6.jpg" alt="" width="400" height="300">
+     <div class=" col-md-3">
+        <img src="midias/console6.jpg" alt="" width="80%" height="250">
+     </div>
+
+     <div class="col-md-3">
+     <div class="row">
         <p>Vídeo Game Master System C/ 132 Jogos MS132 - Tec Toy </p>
-        <p>R$ 649,00 </p>
+     </div>
+     <div class="row">
+        <p><b>R$ 649,00</b> </p>
+     </div>
+     <div class="row">
         <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Carrinho</button>
      </div>
+    </div>
+  </div>
+   </div>
+   </div>
 <!--Fim seção cosole-->
-</Section>
 
+<br><br><br>
 
+<!--inicio rodapé-->
 <footer>
-    <img src="midias/logogamemania azul.jpg" alt="logo" width="60" height="50">
-     <p>Email:exemplo@exemplo.com.br</p>
-     <p>Endereço:</p>
-     <p>Avenina ABC, 123, centro. São Paulo – SP</p>
-     <p>Telefone:</p>
-     <p>(00)	9999-9999</p>
-      
-     <figure>
-<img src="midias/appjpg.jpg" alt="linkapp" width="50" height="50">
-<figcaption>Siga GAME MANIA nas redes sociais. 
-  </figcaption>
-</figure>
+   <div class= "container-fluid footer">
+     <div class="row">
+       <div class= "col-md-4">
+        <img src="midias/logogamemania_azul.png" alt="logo" width="80%" height="50">
+       </div>
+       </div>
+         <div class="row">
+           <div class= "col-md-5">
+        <p>Email:exemplo@exemplo.com.br</p>
+       </div>
+       </div>
+       <div class ="row">  
+         <div class= "col-md-6">
+        <p>Telefone: (00)9999-9999</p>
+         </div>
+       </div>
+       <div class ="row">  
+         <div class= "col-md-6">
+        <p>Endereço: Avenina ABC, 123,<br>
+          centro. São Paulo – SP</p>
+        <p></p>
+         </div>
+       </div>
+       
+         <div class="row">
+           <div class= "col-md-4">
+        <figure>
+   <img src="midias/appjpg.png" alt="linkapp" width="60%" height="50">
+   </div>
+   </div>
+   <div class="row">
+     <div class= "col-md-10">
+   <figcaption>Siga GAME MANIA nas redes sociais. 
+     </figcaption>
+     </div>
+   </div>
+   </figure>
+   
+   <div class="col-md-12">
+   <img src="midias/imagespagamento.png" alt="formas de pagamento" width="100%" height="80">
+   </div>
+   </div>
+    </footer>
+    <!--fim rodapé-->
 
-<img src="midias/forma de pagamento.jpg" alt="formas de pagamento" width="350" height="80">
-</footer>
 </body>
 
 </html>
