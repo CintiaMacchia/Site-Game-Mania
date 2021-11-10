@@ -1,8 +1,10 @@
-header{
+.container logo {
     display: flex;
     align-items: center;
     justify-content:space-around;
     font-family: 'Roboto', sans-serif;
+    font-weight: 60%;
+    
 }
 nav{
     background-color: black;      
@@ -25,17 +27,24 @@ h1{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: black;
-    font-weight: 800;
+    font-weight: 60%;
     text-decoration: underline black;
     font-size: 75px;
+    
 }
 #missao{
     text-align: center;
     font-family: 'roboto', sans-serif 100px;
     color: black;
-    font-weight: 400;
+    font-weight: 80%;
     font-size: 25px;
 }
+.missao {
+    border: black solid 2px;
+   display: flexbox; 
+}
+
+
 
 h2{
     text-align: center;
@@ -44,12 +53,8 @@ font-family: 'Roboto', sans-serif 50px;
 color: blue;
 }
 
-.container-fluid {
-    columns: 4;
-font-size: 20px;
-}
 
-h4{
+#iten-1 h4 {
     font-family: 'roboto', sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -57,9 +62,74 @@ h4{
     text-align: center;
 }
 
+#iten-1 p{
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#iten-2 h4{
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#iten-2 p{
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#iten-3 h4{
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#iten-3 p{
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#iten-4 h4{
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#iten-4 p{
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+
+
+#botaocarrinho{
+    text-align: center;
+}
+
+
 #botaoexplorar {
 text-align: center;
 }
+
+
 footer{
     background-color: rgba(170, 170, 170);
     
@@ -80,6 +150,10 @@ footer figcaption{
     font-family: 'roboto', sans-serif;
     color: black;
 }
+
+
+
+
 #acessorios h1 {
     font-family: 'roboto', sans-serif;
     text-align: center;
