@@ -62,11 +62,11 @@
             <label class="form-label">Telefone Celular</label>
             <input class="form-control tel_cel_mask" required name="telefone_cel" id="telefone_cel" type="text" maxlength="14" placeholder="Digite seu celular com o DDD...">
             <label class="form-label">CEP</label>
-            <input class="form-control cep_mask" required name="cep" id="cep" type="text" maxlength="9" placeholder="Digite um CEP vÃ¡lido...">
-            <label class="form-label">EndereÃ§o</label>
-            <input class="form-control" required name="endereco" id="endereco" type="text" maxlength="25" placeholder="Digite seu endereÃ§o">
-            <label class="form-label">NÃºmero</label>
-            <input class="form-control" required name="numero" id="numero" placeholder="Digite o nÃºmero da residÃªncia...">
+            <input class="form-control cep_mask" required name="cep" id="cep" type="text" maxlength="9" placeholder="Digite um CEP válido...">
+            <label class="form-label">Endereço</label>
+            <input class="form-control" required name="endereco" id="endereco" type="text" maxlength="25" placeholder="Digite seu endereço">
+            <label class="form-label">Número</label>
+            <input class="form-control" required name="numero" id="numero" placeholder="Digite o número da residência...">
             <label class="form-label">Complemento</label>
             <input class="form-control" name="complemento" id="complemento" maxlength="60" placeholder="Digite o complemento, se houver...">
             <label class="form-label">Bairro</label>

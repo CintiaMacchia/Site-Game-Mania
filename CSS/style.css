@@ -1,58 +1,56 @@
 .container logo {
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     font-family: 'Roboto', sans-serif;
     font-weight: 60%;
-    
 }
-nav{
-    background-color: black;      
+
+nav {
+    background-color: black;
 }
 
 nav ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    list-style: none;  
+    list-style: none;
 }
 
 nav ul li {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: bold ;    
+    font-weight: bold;
 }
 
-h1{
+h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: black;
     font-weight: 60%;
     text-decoration: underline black;
     font-size: 75px;
-    
 }
-#missao{
+
+#missao {
     text-align: center;
     font-family: 'roboto', sans-serif 100px;
     color: black;
     font-weight: 80%;
     font-size: 25px;
 }
+
 .missao {
     border: black solid 2px;
-   display: flexbox; 
+    display: flexbox;
 }
 
-
-
-h2{
+h2 {
     text-align: center;
-background-color:rgba(219, 230, 245);
-font-family: 'Roboto', sans-serif 50px;
-color: blue;
+    background-color: rgba(219, 230, 245);
+    font-family: 'Roboto', sans-serif 50px;
+    color: blue;
 }
-
 
 #iten-1 h4 {
     font-family: 'roboto', sans-serif;
@@ -62,7 +60,7 @@ color: blue;
     text-align: center;
 }
 
-#iten-1 p{
+#iten-1 p {
     font-family: 'roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -70,7 +68,7 @@ color: blue;
     text-align: center;
 }
 
-#iten-2 h4{
+#iten-2 h4 {
     font-family: 'roboto', sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -78,7 +76,7 @@ color: blue;
     text-align: center;
 }
 
-#iten-2 p{
+#iten-2 p {
     font-family: 'roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -86,7 +84,7 @@ color: blue;
     text-align: center;
 }
 
-#iten-3 h4{
+#iten-3 h4 {
     font-family: 'roboto', sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -94,7 +92,7 @@ color: blue;
     text-align: center;
 }
 
-#iten-3 p{
+#iten-3 p {
     font-family: 'roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -102,7 +100,7 @@ color: blue;
     text-align: center;
 }
 
-#iten-4 h4{
+#iten-4 h4 {
     font-family: 'roboto', sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -110,7 +108,7 @@ color: blue;
     text-align: center;
 }
 
-#iten-4 p{
+#iten-4 p {
     font-family: 'roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -118,21 +116,16 @@ color: blue;
     text-align: center;
 }
 
-
-
-#botaocarrinho{
+#botaocarrinho {
     text-align: center;
 }
-
 
 #botaoexplorar {
-text-align: center;
+    text-align: center;
 }
 
-
-footer{
+footer {
     background-color: rgba(170, 170, 170);
-    
 }
 
 footer p {
@@ -143,16 +136,13 @@ footer p {
     color: black;
 }
 
-footer figcaption{
+footer figcaption {
     text-align: left;
     font-weight: bold;
     font-size: 12px;
     font-family: 'roboto', sans-serif;
     color: black;
 }
-
-
-
 
 #acessorios h1 {
     font-family: 'roboto', sans-serif;
@@ -162,7 +152,8 @@ footer figcaption{
     font-weight: bold;
     font-size: 70px;
 }
-p{
+
+p {
     font-family: 'roboto', sans-serif;
     color: black;
     font-size: 17px;
@@ -186,13 +177,13 @@ p{
     font-size: 70px;
 }
 
-.pcgamer p{
+.pcgamer p {
     font-family: 'roboto', sans-serif;
     color: black;
     font-size: 18px;
 }
 
-#consoles h1{
+#consoles h1 {
     font-family: 'roboto', sans-serif;
     text-align: center;
     text-decoration: underline;
@@ -201,13 +192,13 @@ p{
     font-size: 70px;
 }
 
-.console p{
+.console p {
     font-family: 'roboto', sans-serif;
     color: black;
     font-size: 18px;
 }
 
-#smartphone h1{
+#smartphone h1 {
     font-family: 'roboto', sans-serif;
     text-align: center;
     text-decoration: underline;
@@ -216,7 +207,7 @@ p{
     font-size: 70px;
 }
 
-.login h1{
+.login h1 {
     font-family: 'roboto', sans-serif;
     text-align: center;
     text-decoration: underline;
@@ -225,14 +216,15 @@ p{
     font-size: 70px;
 }
 
-.nome{
+.nome {
     font-family: 'roboto', sans-serif;
     color: black;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
 }
-label{
+
+label {
     font-family: 'roboto', sans-serif;
     color: black;
     font-size: 20px;
@@ -240,9 +232,7 @@ label{
     font-weight: bold;
 }
 
-
-   
-   
-    
-   
-
+#formulario input {
+    display: flex;
+    justify-content: center;
+}

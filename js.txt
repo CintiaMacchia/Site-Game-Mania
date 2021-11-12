@@ -30,13 +30,13 @@ function cadastro() {
 
     alert(`Cadastro efetuado com sucesso!`);
 
-    alert(`OlÃ¡ ${cadnome} 
-    Seu CPF Ã©: ${cadcpf}
-    Seu Telefone Ã©: ${cadtel}
-    Seu Celular Ã©: ${cadcel}
-    Seu Cep Ã©: ${cadcep}
-    Seu EndereÃ§o Ã©: ${cadrua} 
-    NÃºmero: ${cadnumero} 
+    alert(`Olá ${cadnome} 
+    Seu CPF é: ${cadcpf}
+    Seu Telefone é: ${cadtel}
+    Seu Celular é: ${cadcel}
+    Seu Cep é: ${cadcep}
+    Seu Endereço é: ${cadrua} 
+    Número: ${cadnumero} 
     Complemento: ${cadcomplemento} 
     Bairro: ${cadbairro}
     Cidade: ${cadcidade} 
